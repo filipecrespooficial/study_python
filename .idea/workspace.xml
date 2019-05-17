@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f6143b1-4540-4606-88fa-ccde229943fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pratica/main_OLD.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratica/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pratica/main.py" afterDir="false" />
     </list>
@@ -17,10 +17,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pratica/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="679">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
+                <element signature="e#964#1023#0" />
+                <element signature="e#1064#1240#0" />
+                <element signature="e#1781#1996#0" />
+                <element signature="e#2014#2279#0" />
+                <element signature="e#2299#2510#0" />
+                <element signature="e#2524#2572#0" />
+                <element signature="e#2596#2665#0" />
               </folding>
             </state>
           </provider>
@@ -58,10 +65,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="700" />
-    <option name="y" value="25" />
-    <option name="width" value="666" />
-    <option name="height" value="741" />
+    <option name="x" value="1960" />
+    <option name="y" value="27" />
+    <option name="width" value="1880" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,8 +80,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="SchoolOfNet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SchoolOfNet" type="462c0819:PsiDirectoryNode" />
+              <item name="study_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_python" type="462c0819:PsiDirectoryNode" />
+              <item name="pratica" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,6 +99,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pratica" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pratica" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,9 +125,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iniciando" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iniciando/conditionals.py" />
@@ -151,10 +168,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="27" width="1328" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="1960" y="27" width="1880" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.103975534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10393107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,7 +181,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4976672" weight="0.3306189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4976672" visible="true" weight="0.44820064" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023328" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -235,12 +251,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pratica/main_OLD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pratica/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="679">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#964#1023#0" />
+            <element signature="e#1064#1240#0" />
+            <element signature="e#1781#1996#0" />
+            <element signature="e#2014#2279#0" />
+            <element signature="e#2299#2510#0" />
+            <element signature="e#2524#2572#0" />
+            <element signature="e#2596#2665#0" />
           </folding>
         </state>
       </provider>
