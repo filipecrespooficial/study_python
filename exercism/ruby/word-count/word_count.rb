@@ -12,7 +12,15 @@ class Phrase
   end
 
   def word_count
-    @string.split
-    # string
+    words
+    words_count = Hash.new(0)
+    words.each do |x|
+      words_count[x] += 1
+    end
+    words_count
+  end
+
+  def words
+    @string.downcase.scan(/\w+'t|\w+/)
   end
 end
