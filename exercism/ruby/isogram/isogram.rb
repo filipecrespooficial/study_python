@@ -6,3 +6,9 @@ To get started with TDD, see the `README.md` file in your
 `ruby/isogram` directory.
 =end
 
+class Isogram
+  require 'pry';binding.pry
+  def self.isogram?(str)
+    "Expected true, '#{str}' is an isogram"
+  end
+end
