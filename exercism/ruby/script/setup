@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+source "$(dirname "${BASH_SOURCE[0]}")/common.sh"
+
+$DOCKER_COMPOSE build && \
+$DOCKER_COMPOSE run --service-ports --rm -T ruby bash -c "gem install minitest pry"

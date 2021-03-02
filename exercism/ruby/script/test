@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+source "$(dirname "${BASH_SOURCE[0]}")/common.sh"
+
+TEST_ARGS="$@"
+
+echo "Running only the tests $TEST_ARGS"
+$DOCKER_COMPOSE run -T -e RAILS_ENV=test --rm ruby bash -c "ruby -r minitest/pride $TEST_ARGS </dev/null"

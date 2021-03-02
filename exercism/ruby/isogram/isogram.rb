@@ -5,10 +5,10 @@ Write your code for the 'Isogram' exercise in this file. Make the tests in
 To get started with TDD, see the `README.md` file in your
 `ruby/isogram` directory.
 =end
+# require 'pry'
 
 class Isogram
-  require 'pry';binding.pry
-  def self.isogram?(str)
-    "Expected true, '#{str}' is an isogram"
+  def self.isogram?(input)
+    ("a".."z").all?{|x| input.downcase.count(x)<=1}
   end
 end
