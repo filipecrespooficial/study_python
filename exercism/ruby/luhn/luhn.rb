@@ -9,9 +9,11 @@ To get started with TDD, see the `README.md` file in your
 class Luhn
   def self.valid?(value)
     total = 0;
-    value.each do |x|
-      total = total + x
+
+    value.split('').each do |x|
+      # total = total + x
     end
+
     if total % 10 == 0
       return true
     else
